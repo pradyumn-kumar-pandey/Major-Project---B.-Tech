@@ -1,1 +1,72 @@
-Contains the code related to the GUI application of the project 
+Multiple Disease Prediction System - Version1.0
+
+Multiple Disease Prediction System is a Machine Learning based application that 
+predicts the disease a person might be suffering from.
+
+This is a GUI based application that enables users to easily diagnose the disease
+ within a few simple steps.
+
+
+How To Use
+
+1. First Page is the Window where user can quit the application using "Quit" button
+   or start the application by pressing the "Start Application" button.
+
+2. After the application starts, tghe main menu shows up with the following buttons:
+
+a. Instant Predictions
+   This button takes the user to the disease selection menu and is 
+   discussed in point(3).
+
+b. Go Back
+   This button takes the user to the First Window of application.
+
+c. Quit
+   This button closes the application.
+
+3. The "Instant Predictions" button opens the Disease Selection menu with the 
+   following button:
+
+	a. Liver Disease Prediction
+	b. Chronic Kidney Disease
+	c. Go Back
+	d. Quit
+
+4. Liver Disease Prediction
+   This buuton will take to the entry section.
+
+	Age---------------------------(in number)
+	gender------------------------(male/female)
+	Total bilirubin---------------(in number)
+	Direct Bilirubin--------------(in number)
+	Alkaline Phosphate------------(in number)
+	Alanine Phosphate-------------(in number)
+	Aspartate Aminotransferase----(in number)
+	Total proteins----------------(in number)
+	Albumin-----------------------(in number)
+	Albumin Globulin Ratio--------(in number)
+	
+   No entry should be kept blank and enter proper value against each entry.
+	
+   "Verify" button will show the entries entered by user and user can click
+   on "Confirm" button to get the predictions.
+
+5. Chronic Kidney Disease
+   This buuton will take to the entry section.
+	
+	Age--------------------------(in number)
+	Blood pressure---------------(in number)
+	Albumin----------------------(in number)
+	Blood Glucose Random---------(in number)
+	Blood Urea-------------------(in number)
+	Serum Creatinine-------------(in number)
+	Haemoglobin------------------(in number)
+	Packed cell volume-----------(in number)
+	Hypertension-----------------(yes/no)
+	Diabetes Mellitus------------(yes/no)
+	Appetite---------------------(poor/good)
+	Anaemia----------------------(yes/no)
+   No entry should be kept blank and enter proper value against each entry.
+	
+   "Verify" button will show the entries entered by user and user can click
+   on "Confirm" button to get the predictions.
